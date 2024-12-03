@@ -17,13 +17,13 @@ void Log::PrintLog(LogEntry& Entry)
 	std::string color;
 
 	switch (Entry.Type) {
-	case LOG_DEFAULT:
+	case LOG_DEFAULT_:
 		color = "\x1B[37m";
 		break;
-	case LOG_WARNING:
+	case LOG_WARNING_:
 		color = "\x1B[33m";
 		break;
-	case LOG_ERROR:
+	case LOG_ERROR_:
 		color = "\x1B[91m";
 		break;
 	default:

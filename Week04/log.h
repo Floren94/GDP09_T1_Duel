@@ -4,9 +4,9 @@
 
 //enum , Enumeration
 enum LogType {
-	LOG_DEFAULT, //0
-	LOG_WARNING, //1
-	LOG_ERROR    //2
+	LOG_DEFAULT_, //0
+	LOG_WARNING_, //1
+	LOG_ERROR_    //2
 };
 
 struct LogEntry {
